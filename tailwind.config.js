@@ -8,7 +8,10 @@ export default {
 		extend: {
 			colors: {
 				'ac-black': '#262626'
-			}
+			},
+			backgroundImage: {
+				main: "url('/images/bg-main.png')"
+			},
 		}
 	},
 	plugins: []
