@@ -16,10 +16,10 @@
 			<Navbar />
 			<div class="flex-grow h-full px-6">
 				<div class="text-white h-full flex flex-col justify-center items-center">
-					<div class="text-3xl">
+					<div class="text-3xl font-roman">
 						Digital Elegance, <span class="italic">Unforgettable Experiences.</span>
 					</div>
-					<div class="text-base/relaxed mt-2">
+					<div class="text-base/relaxed mt-2 font-helvetica">
 						We are a bespoke service development studio crafting timeless invitations tailored to
 						your love. Your chapter, your story - Our Expertise.
 					</div>
