@@ -16,21 +16,21 @@
 			<Navbar />
 			<div class="flex-grow h-full px-6">
 				<div class="text-white h-full flex flex-col justify-center items-center">
-					<div class="text-3xl font-roman">
+					<div class="text-3xl font-roman w-full md:text-6xl/tight">
 						Digital Elegance, <span class="italic">Unforgettable Experiences.</span>
 					</div>
-					<div class="text-base/relaxed mt-2 font-helvetica">
+					<div class="text-base/relaxed mt-2 font-helvetica md:text-xl/relaxed md:pr-40">
 						We are a bespoke service development studio crafting timeless invitations tailored to
 						your love. Your chapter, your story - Our Expertise.
 					</div>
 
 					<div class="flex gap-4 w-full mt-28">
 						<button
-							class="rounded bg-transparent border border-solid border-white text-white w-full py-4"
+							class="rounded bg-transparent border border-solid border-white text-white w-full py-4 md:w-48"
 							>View Templates</button
 						>
 						<button
-							class="rounded bg-white border border-solid border-white text-ac-black w-full py-4"
+							class="rounded bg-white border border-solid border-white text-ac-black w-full py-4 4 md:w-48"
 							>Contact Us</button
 						>
 					</div>

@@ -22,7 +22,7 @@
 		font-family: 'Times New Roman';
 		src: local('Times New Roman'), local('Times-New-Roman'), local('times new roman'),
 			url('/fonts/new-roman/bold.ttf');
-		font-weight: 700;
+		font-weight: 300;
 		font-style: normal;
 	}
 	@font-face {
