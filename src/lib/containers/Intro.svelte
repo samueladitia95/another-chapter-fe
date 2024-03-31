@@ -14,17 +14,22 @@
 	{:else}
 		<div class="w-screen h-screen bg-main bg-cover bg-no-repeat bg-center flex flex-col">
 			<Navbar />
-			<div class="flex-grow h-full px-6">
+			<div class="flex-grow h-full px-6 md:px-8 lg:px-16 xl:px-20">
 				<div class="text-white h-full flex flex-col justify-center items-center">
-					<div class="text-3xl font-roman w-full md:text-6xl/tight">
-						Digital Elegance, <span class="italic">Unforgettable Experiences.</span>
-					</div>
-					<div class="text-base/relaxed mt-2 font-helvetica md:text-xl/relaxed md:pr-40">
-						We are a bespoke service development studio crafting timeless invitations tailored to
-						your love. Your chapter, your story - Our Expertise.
+					<div class="flex flex-col lg:flex-row lg:items-center">
+						<div class="text-3xl font-roman w-full md:text-6xl/tight lg:text-5xl/tight">
+							Digital Elegance, <span class="italic">Unforgettable Experiences.</span>
+						</div>
+
+						<div
+							class="text-base/relaxed mt-2 font-helvetica md:text-xl/relaxed md:pr-40 lg:pr-0 lg:max-w-[600px]"
+						>
+							We are a bespoke service development studio crafting timeless invitations tailored to
+							your love. Your chapter, your story - Our Expertise.
+						</div>
 					</div>
 
-					<div class="flex gap-4 w-full mt-28">
+					<div class="flex gap-4 w-full mt-28 lg:mt-6">
 						<button
 							class="rounded bg-transparent border border-solid border-white text-white w-full py-4 md:w-48"
 							>View Templates</button
