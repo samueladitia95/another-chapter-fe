@@ -33,22 +33,24 @@
 	};
 </script>
 
-<div class="min-h-screen w-screen bg-ac-light-cream">
+<div class="min-h-screen w-screen bg-ac-light-cream flex flex-col justify-center items-center">
 	<div class="container py-20">
-		<div class="font-roman text-4xl font-light">Frequently Asked Questions</div>
+		<div class="font-roman text-4xl font-light w-full md:text-center">
+			Frequently Asked Questions
+		</div>
 		<div class="mt-12 flex flex-col gap-6">
 			{#each faqs as faq, index}
 				<div class="w-full flex flex-col gap-4">
 					<div class="w-full border-t border-solid border-ac-black" />
 					<div class="flex justify-between items-center w-full">
-						<div class="font-helvetica text-xl/normal">{faq.question}</div>
+						<div class="font-helvetica text-xl/normal md:text-2xl/normal">{faq.question}</div>
 						<button class="text-2xl font-light" on:click={() => handleOpen(index)}
 							>{faq.isOpen ? '-' : '+'}</button
 						>
 					</div>
 					<div
 						class={clsx(
-							'font-helvetica transform transition-all overflow-hidden max-h',
+							'font-helvetica transform transition-all overflow-hidden max-h md:text-xl/normal',
 							faq.isOpen ? 'max-h-80' : 'max-h-0'
 						)}
 					>

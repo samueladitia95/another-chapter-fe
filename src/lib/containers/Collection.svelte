@@ -28,7 +28,7 @@
 			{#each collections as collection}
 				<div>
 					<img src={collection.image} alt="collection" class="w-[375px] h-[375px] rounded" />
-					<div class="flex flex-col gap-4 mt-4">
+					<div class="flex flex-col gap-4">
 						<div class="font-helvetica text-ac-black">
 							<div class="text-2xl">{collection.title}</div>
 							<div>{collection.description}</div>
