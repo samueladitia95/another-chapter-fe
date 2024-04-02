@@ -37,9 +37,16 @@
 	@font-face {
 		font-family: 'Helvetica Neue';
 		src: local('Helvetica Neue'), local('Helvetica-Neue'), local('helvetica neue'),
+			url('/fonts/helvetica-neur/HelveticaNeue-Medium-11.ttf');
+		font-weight: 500;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Helvetica Neue';
+		src: local('Helvetica Neue'), local('Helvetica-Neue'), local('helvetica neue'),
 			url('/fonts/helvetica-neur/HelveticaNeue-01.ttf');
 		font-weight: 700;
-		font-style: italic;
+		font-style: normal;
 	}
 }
 

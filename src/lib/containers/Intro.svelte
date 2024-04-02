@@ -14,7 +14,7 @@
 	{:else}
 		<div class="w-screen h-screen bg-main bg-cover bg-no-repeat bg-center flex flex-col">
 			<Navbar />
-			<div class="flex-grow h-full px-6 md:px-8 lg:px-16 xl:px-20">
+			<div class="flex-grow h-full container">
 				<div class="text-white h-full flex flex-col justify-center items-center">
 					<div class="flex flex-col lg:flex-row lg:items-center">
 						<div class="text-3xl font-roman w-full md:text-6xl/tight lg:text-5xl/tight">
