@@ -21,13 +21,17 @@
 	];
 </script>
 
-<div class="min-h-screen w-screen bg-ac-light-cream">
+<div
+	class="min-h-screen w-screen bg-ac-light-cream h-full flex flex-col justify-center items-center"
+>
 	<div class="container py-28">
 		<div class="text-roman text-4xl mb-6">Collections Template</div>
-		<div class="grid grid-rows-1 gap-10">
+		<div
+			class="grid grid-rows-1 md:grid-flow-row-2 md:grid-cols-2 xl:grid-rows-1 xl:grid-cols-3 gap-10"
+		>
 			{#each collections as collection}
 				<div>
-					<img src={collection.image} alt="collection" class="w-[375px] h-[375px] rounded" />
+					<img src={collection.image} alt="collection" class="w-full rounded" />
 					<div class="flex flex-col gap-4">
 						<div class="font-helvetica text-ac-black">
 							<div class="text-2xl">{collection.title}</div>
