@@ -12,7 +12,10 @@ export default {
 			colors: {
 				'ac-black': '#262626',
 				'ac-cream': '#DFD6C8',
-				'ac-brown': '#68491A'
+				'ac-brown': '#68491A',
+				'ac-light-cream': '#F3F0EA',
+				'ac-dark-brown': '#4A4A4A',
+				'ac-bronze': '#89785F'
 			},
 			backgroundImage: {
 				main: "url('/images/bg-main.png')"
