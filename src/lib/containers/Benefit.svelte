@@ -35,11 +35,13 @@
 <div class="min-h-screen w-screen bg-ac-cream">
 	<div class="container py-28">
 		<div>
-			<div class="font-roman text-ac-brown text-4xl font-light">
+			<div class="font-roman text-ac-brown text-4xl md:text-6xl/tight font-extralight">
 				We believe that the <span class="italic">experience</span> matters, offering a
 				<span class="italic">unique storytelling journey</span> for you and your loved ones
 			</div>
-			<div class="mt-28 flex flex-col gap-10">
+			<div
+				class="mt-28 flex flex-col gap-10 md:grid md:grid-cols-2 md:grid-rows-2 xl:grid-cols-4 xl:grid-rows-1"
+			>
 				{#each benefits as benefit}
 					<div class="text-ac-brown">
 						<img src={benefit.logo} alt="logo" class="h-14 mb-6" />
