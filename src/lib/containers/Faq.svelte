@@ -35,7 +35,7 @@
 
 <div class="min-h-screen w-screen bg-ac-light-cream flex flex-col justify-center items-center">
 	<div class="container py-20">
-		<div class="font-roman text-4xl font-light w-full md:text-center">
+		<div class="font-roman text-4xl w-full md:text-center">
 			Frequently Asked Questions
 		</div>
 		<div class="mt-12 flex flex-col gap-6">
