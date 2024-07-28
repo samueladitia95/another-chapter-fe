@@ -48,7 +48,7 @@
 						<div class="text-2xl font-helvetica">
 							{benefit.title}
 						</div>
-						<div class="mt-2 font-helvetica">
+						<div class="mt-4 text-base font-helvetica">
 							{benefit.content}
 						</div>
 					</div>
