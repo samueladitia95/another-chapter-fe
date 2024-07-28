@@ -1,38 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	/* TImes New Roman */
-	@font-face {
-		font-family: 'Times New Roman';
-		src: local('Times New Roman'), local('Times-New-Roman'), local('times new roman'),
-			local('times-new-roman'), url('/fonts/new-roman/normal.ttf');
-		font-weight: 400;
-		font-style: normal;
-	}
-	@font-face {
-		font-family: 'Times New Roman';
-		src: local('Times New Roman'), local('Times-New-Roman'), local('times new roman'),
-			url('/fonts/new-roman/normalItalic.ttf');
-		font-weight: 400;
-		font-style: italic;
-	}
-	@font-face {
-		font-family: 'Times New Roman';
-		src: local('Times New Roman'), local('Times-New-Roman'), local('times new roman'),
-			url('/fonts/new-roman/bold.ttf');
-		font-weight: 300;
-		font-style: normal;
-	}
-	@font-face {
-		font-family: 'Times New Roman';
-		src: local('Times New Roman'), local('Times-New-Roman'), local('times new roman'),
-			url('/fonts/new-roman/boldItalic.ttf');
-		font-weight: 700;
-		font-style: italic;
-	}
 
+@layer base {
 	/* Helvetica Neue */
 	@font-face {
 		font-family: 'Helvetica Neue';

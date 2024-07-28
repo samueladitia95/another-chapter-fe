@@ -17,13 +17,16 @@ export default {
 				'ac-dark-brown': '#4A4A4A',
 				'ac-bronze': '#89785F',
 				'ac-dark-olive': '#4D463E',
-				'ac-wedge': '#615A51'
+				'ac-wedge': '#615A51',
+				'ac-cream-brown': '#BBA88C',
+				'ac-dark-cream-brown': '#977D56'
 			},
 			backgroundImage: {
-				main: "url('/images/bg-main.png')"
+				main: "url('/images/bg-main.png')",
+				pricing: "url(/images/bg-pricing.png)"
 			},
 			fontFamily: {
-				roman: ['Times-New-Roman', ...defaultTheme.fontFamily.sans],
+				roman: ['Tinos', ...defaultTheme.fontFamily.serif],
 				helvetica: ['Helvetica Neue', ...defaultTheme.fontFamily.sans]
 			}
 		}
